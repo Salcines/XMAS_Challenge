@@ -1,0 +1,31 @@
+package ui;
+
+import java.io.IOException;
+import java.util.Scanner;
+import tasks.BugControlLog;
+
+public class SelectionMenu {
+    private static final Scanner input = new Scanner(System.in);
+    public static void displayMainMenu() throws IOException {
+        while (true) {
+            System.out.println("\n Twelve days of coding 🎄❄️\n");
+            System.out.println(" 1️⃣ Task \"On the first day of coding\"");
+            System.out.println(" 0️⃣ Exit program.");
+            System.out.print(" Select an option: ");
+
+            int option = input.nextInt();
+
+            switch (option) {
+                case 1:
+                    BugControlLog.filterSecondError();
+                    break;
+                case 0:
+                    System.out.println("Bye!");
+                    return;
+                default:
+                    System.out.println("Unknow option!");
+                    break;
+            }
+        }
+    }
+}
