@@ -12,7 +12,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-public class BugControlLog {
+public class OneNastyBug {
     record LogEntry(LocalTime time, String error){}
     private static final Scanner input = new Scanner(System.in);
     private static final LocalTime timeFrameFrom = LocalTime.of(15, 00);
@@ -57,7 +57,6 @@ public class BugControlLog {
 
         System.out.println("%nTask 1️⃣ On The First Day Of Coding...\n");
         System.out.printf("\n The most repeat error excluded background noise is: %s%n%n", mostRepeatError);
-        System.out.printf("And the background noise is: %s%n%n", backgroundNoise);
         System.out.print("Press enter to continue...");
         input.nextLine();
         return;
