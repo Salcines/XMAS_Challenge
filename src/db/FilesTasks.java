@@ -7,4 +7,7 @@ public class FilesTasks {
     public String getTask2Dataset() {
         return "Resources/dataset-task-2.txt";
     }
+    public String getTask3Dataset() {
+        return "Resources/dataset-task-3.txt";
+    }
 }
