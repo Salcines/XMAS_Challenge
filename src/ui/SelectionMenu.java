@@ -1,4 +1,5 @@
 package ui;
+import tasks.FourElvesDinner;
 import tasks.OneNastyBug;
 import tasks.TwoPointers;
 import tasks.ThreeSecurityRules;
@@ -14,6 +15,7 @@ public class SelectionMenu {
             System.out.println(" 1️⃣ Task \"On the first day of coding...\"");
             System.out.println(" 2️⃣ Task \"On the second day of coding...\"");
             System.out.println(" 3️⃣ Task \"On the third day of coding...\"");
+            System.out.println(" 4️⃣ Task \"On the fourth day of coding...\"");
             System.out.println(" 0️⃣ Exit program.");
             System.out.print(" Select an option: ");
 
@@ -28,6 +30,9 @@ public class SelectionMenu {
                     break;
                 case 3:
                     ThreeSecurityRules.scoreSecurityPassword();
+                    break;
+                case 4:
+                    FourElvesDinner.AnalyzeLogContentions();
                     break;
                 case 0:
                     System.out.println("Bye!");
