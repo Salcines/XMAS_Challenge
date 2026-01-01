@@ -13,8 +13,8 @@ public class SelectionMenu {
             System.out.println(" 2️⃣ Task \"On the second day of coding...\"");
             System.out.println(" 3️⃣ Task \"On the third day of coding...\"");
             System.out.println(" 4️⃣ Task \"On the fourth day of coding...\"");
-            System.out.println(" 7️⃣ Task \"On the seventh day of codign..\"");
             System.out.println(" 6️⃣ Task \"On the sixth day of coding...\"");
+            System.out.println(" 7️⃣ Task \"On the seventh day of codign..\"");
             System.out.println(" 0️⃣ Exit program.");
             System.out.print(" Select an option: ");
 
@@ -33,12 +33,11 @@ public class SelectionMenu {
                 case 4:
                     FourElvesDinner.AnalyzeLogContentions();
                     break;
-                case 7:
-                    SevenBridges.calculateMinimumBridge();
-                    break;
                 case 6:
                     SixHandSakes.findFarthestBeing();
-
+                    break;
+                case 7:
+                    SevenBridges.calculateMinimumBridge();
                     break;
                 case 0:
                     System.out.println("Bye!");
