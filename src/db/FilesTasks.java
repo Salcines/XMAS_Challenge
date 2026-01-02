@@ -13,7 +13,6 @@ public class FilesTasks {
     public String getTask4Dataset() {
         return "Resources/dataset-task-4.txt";
     }
-
     public String getTask6Dataset() {
         return "Resources/dataset-task-6.txt";
     }
@@ -23,4 +22,5 @@ public class FilesTasks {
     public String getTask8Dataset() {
         return "Resources/dataset-task-8.txt";
     }
+    public String getTask9Dataset() { return "Resources/dataset-task-9.txt"; }
 }
