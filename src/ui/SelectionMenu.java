@@ -18,6 +18,7 @@ public class SelectionMenu {
             System.out.println(" 8️⃣ Task \"On the eigth day of coding...\"");
             System.out.println(" 9️⃣ Task \"On the ninth day of coding...\"");
             System.out.println(" 🔟 Task \"On the tenth day of coding...\"");
+            System.out.println(" 1️⃣1️⃣ Task \"On the eleventh day of coding...\"");
             System.out.println(" 0️⃣ Exit program.");
             System.out.print(" Select an option: ");
 
@@ -50,6 +51,9 @@ public class SelectionMenu {
                     break;
                 case 10:
                     TenLittleDrummers.patternSynchronous();
+                    break;
+                case 11:
+                    ElevenBakedBakers.calculateTimeActions();
                     break;
                 case 0:
                     System.out.println("Bye!");
