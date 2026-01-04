@@ -23,4 +23,5 @@ public class FilesTasks {
         return "Resources/dataset-task-8.txt";
     }
     public String getTask9Dataset() { return "Resources/dataset-task-9.txt"; }
+    public String getTask10Dataset() { return "Resources/dataset-task-10.txt"; }
 }
