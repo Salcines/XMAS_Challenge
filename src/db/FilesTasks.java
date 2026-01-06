@@ -16,4 +16,17 @@ public class FilesTasks {
     public String getTask5Dataset() {
         return "Resources/dataset-task-5.txt";
     }
+    public String getTask6Dataset() {
+        return "Resources/dataset-task-6.txt";
+    }
+    public String getTask7Dataset() {
+        return "Resources/dataset-task-7.txt";
+    }
+    public String getTask8Dataset() {
+        return "Resources/dataset-task-8.txt";
+    }
+    public String getTask9Dataset() { return "Resources/dataset-task-9.txt"; }
+    public String getTask10Dataset() { return "Resources/dataset-task-10.txt"; }
+    public String getTask11Dataset() { return "Resources/dataset-task-11.txt"; }
+    public String getTask12Dataset() { return "Resources/dataset-task-12.txt"; }
 }
